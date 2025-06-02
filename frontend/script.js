@@ -275,7 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       try {
-        const response = await fetch("https://sfa-helpdesk-app-backend.onrender.com/api/tickets", {
+        const response = await fetch("https://sfa-helpdesk-app.onrender.com/", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
