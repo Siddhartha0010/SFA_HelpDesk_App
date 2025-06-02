@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         noTicketsMessage.style.display = 'none';
 
         // Fetch tickets from your backend API
-        const response = await fetch('http://localhost:5000/api/tickets', {
+        const response = await fetch('https://sfa-helpdesk-app.onrender.com', {
             headers: {
                 'Content-Type': 'application/json',
                 'x-admin-token': adminToken // Include the admin token in the header
