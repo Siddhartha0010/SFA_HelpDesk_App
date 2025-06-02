@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotions - SFA 2.0 Help Desk</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo" height="80" width="80">
+                    <span>SFA 2.0 Help Desk</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="promos.html">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutorials.html">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="container">
+            <h1>Current Promotions</h1>
+            <p>Discover the latest promotional schemes and offers available in SFA 2.0</p>
+        </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section class="tutorials-section">
+        <div class="container">
+            <div class="tutorial-filter">
+                <button class="filter-btn active" data-filter="all">All Promotions</button>
+                <button class="filter-btn" data-filter="sfa">SFA 2.0 Schemes</button>
+                <button class="filter-btn" data-filter="seasonal">Seasonal Schemes</button>
+            </div>
+            
+            <div class="row tutorial-container">
+                <div class="col-md-4 mb-4 tutorial-item" data-category="sfa">
+                    <div class="tutorial-card">
+                        <div class="tutorial-thumbnail">
+                            <img src="imagesandvideos\sfaschemes.jpg" alt="SFA 2.0 Schemes">
+                            <span class="tutorial-duration">Active</span>
+                            <div class="play-button" data-bs-toggle="modal" data-bs-target="#sfaModal">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h3>SFA 2.0 Schemes</h3>
+                            <p>Complete pricing and promotional schemes for SFA 2.0 platform</p>
+                            <span class="tutorial-level">Active</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4 tutorial-item" data-category="seasonal">
+                    <div class="tutorial-card">
+                        <div class="tutorial-thumbnail">
+                            <img src="imagesandvideos\cokebuddy_schemes.jpg" alt="Seasonal Schemes">
+                            <span class="t+utorial-duration">May 2024</span>
+                            <div class="play-button" data-bs-toggle="modal" data-bs-target="#seasonalModal">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h3>Seasonal Schemes (May Month)</h3>
+                            <p>Special promotional offers and discounts for May month</p>
+                            <span class="tutorial-level">May 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-logo">
+                        <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo" height="80" width="80">
+                        <h3>SFA 2.0 Help Desk</h3>
+                    </div>
+                    <p>Your comprehensive guide to mastering the Sales Force Automation app</p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="promos.html">Promotions</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">User Manual</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                        <li><a href="#">Training Materials</a></li>
+                        <li><a href="#">System Requirements</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +91 8000 123 456</p>
+                    <p><i class="fas fa-envelope"></i> sfa.support@coca-cola.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coca-Cola Company. All rights reserved.</p>
+                <p>Designed by BTech Student for Internship Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SFA Modal -->
+    <div class="modal fade" id="sfaModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SFA 2.0 Schemes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>SKU</th>
+                                    <th>Spot (Code)</th>
+                                    <th>Slab1</th>
+                                    <th>Slab2</th>
+                                    <th>Scheme</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Kinley PET l LTR</td>
+                                    <td>88600970</td>
+                                    <td>On 15 Ea, get 0.2 BUY 1 to 9 CS GET 3 Bottles free per CS Free Product: Kinley PET 1 LTR Minimum buying qty: 15.0</td>
+                                    <td></td>
+                                    <td>BUY 1 to 9 CS GET 3 Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Thums Up PET 2.25 LTR  Limca PET 2.25 LTR  Fanta Orange PET 2.25 LTR Sprite PET 2.25 LTR</td>
+                                    <td>88600966</td>
+                                    <td>On 1 Eq, get 0.33333 BUY Upto 1 CS GET 3 Bottles free per CS Free Product: Kinley PET ILTR Minimum buying qty 10</td>
+                                    <td>On 18 Ea get 0.55556 BUY 2 to 99 CS GET 5 Botties free per CS Free Product: Kinley PET 1 LTR  Minimum buying qty: 18.0</td>
+                                    <td>BUY 2 to 99 CS GET 5 Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Sprite PET 1 LTR Thums Up PET 1 LTR Fanta Orange PET 1 LTR Limca PET 1 LTR</td>
+                                    <td>88600964</td>
+                                    <td>On 15 Ea, get 0.06667 BUY 1 to 99 CS GET I Bottles free per CS Free Product: Thums Up PET 1 LTR Minimum buying qty: 15.0</td>
+                                    <td></td>
+                                    <td>BUY 1 to 99 CS GET 1 Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Thums Up PET 250 ML Limca PET 250 ML  Fanta Orange PET 250 ML  Sprite PET 250 ML  Sprite PET 250 ML</td>
+                                    <td>88600967</td>
+                                    <td>On 28 Ea, get 0:03571 BUY 1 to 99 CS GET 1 Bottles free per CS Free Product: Thums Up PET 250 ML Minimum buying qty 28.0</td>
+                                    <td></td>
+                                    <td>BUY 1 to 99 CS GET 1 Botties free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Kinley Soda PET 1.25 LTR</td>
+                                    <td>88600968</td>
+                                    <td>On I Ea, get 333333 BUY 0 to 999 CS GET RS-40 OFF PER CS Minimum buying qty 10</td>
+                                    <td></td>
+                                    <td>BUY 0 to 999 CS GET R$40 OFF PER CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Maaza Mango PET 200 ML</td>
+                                    <td>88600979</td>
+                                    <td>On l Ea, get 0.03333 BUY Upto 1 CS GET 1 Bottles free per CS Free Product Maaza Refresh Tetra 135 ML Minimum buying qty: 10</td>
+                                    <td>On 60 Ea, get 0.06667 BUY 2 to 99 CS GET 2 Bottles free per CS Free Product: Maaza Refresh Tetra 135 ML Minimum buying qty: 60,0</td>
+                                    <td>BUY Upto 1 CS GET 1 Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Minute Maid Pulpy Orange PET 400 ML</td>
+                                    <td>88600972</td>
+                                    <td>On 1 Ea get 20 BUY 0 to 999 CS GET RE48 OFF PER CS Minimum buying qty: 10</td>
+                                    <td></td>
+                                    <td>BUY 0 to 999 CS GET Rs 48 OFF PER CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Sprite PET 1.5 LTR Thums Up PET 1.5 LTR</td>
+                                    <td>88600965</td>
+                                    <td>On 12 Ea, get 0.08333 BUY 1 to 99 CS GET I Bottles free per CS Free Product: Thums Up PET 1.5 LTR Minimum buying qty: 12:0</td>
+                                    <td></td>
+                                    <td>BUY 1 to 99 CS GET I Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Minute Maid Pulpy Orange PET 250 ML</td>
+                                    <td>88600971</td>
+                                    <td>On 1 Ea, get 0.03333 BUY Upto 1 CS GET I Bottles free per CS Free Product Minute Maid Pulpy Orange PET 250 ML Minimum buying qty: 1.0:</td>
+                                    <td></td>
+                                    <td>BUY Upto ICS GET 1 Bottles free per CS</td>
+                                </tr>
+                                <tr>
+                                    <td>Maaza Mango PET 1.2 LTR</td>
+                                    <td>88600975</td>
+                                    <td>On 1 Ea, get 5.33333 BUY 0 to 1 CS GET Rs.64 OFF PER CS Minimum buying qty: 1.0</td>
+                                    <td>On 24 Ea, get 8.0 BUY 2 to 999 CS GET Rs.96 OFF PER CS Minimum buying qty: 24.0</td>
+                                    <td>BUY 0 to 1 CS GET Rs.64 OFF PER CS</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seasonal Modal -->
+    <div class="modal fade" id="seasonalModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Seasonal Schemes (May Month)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Objective</th>
+                                    <th>Packs</th>
+                                    <th>Coupon - Retail Ols Less PFP</th>
+                                    <th>VPO Class</th>
+                                    <th>ASM</th>
+                                    <th>Discount Amt</th>
+                                    <th>Disc%</th>
+                                    <th>Period</th>
+                                    <th>Remarks</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Drive ND</td><td>RGB</td><td>Buy 5 Cases or more of any RGB (Min 1 case KO RGB+1 Case Fx RGB), Get Rs. 10/- Off per case | Max Discount 100</td><td>All Ols</td><td>All ASM except ASM Ramesh (Vizag City) & ASM Jogiraju (Anantapur)</td><td>100</td><td>5.20%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>Drive ND</td><td>RGB</td><td>Buy 4 Cases or more of any RGB (Min 1 case KO RGB), Get Rs. 15/- Off per case | Max Discount 150</td><td>All Ols</td><td>ASM Jogiraju (Anantapur)</td><td>150</td><td>7.81%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>Drive ND</td><td>RGB + ASSP Dual</td><td>Buy 5 Cases any RGB (Min 1 case KO RGB) & 3 cases of Any ASSP (Min 1 Case KO ASSP), Get Rs. 80/- Off</td><td>All Ols</td><td>ASM Ramesh (Vizag City)</td><td>80</td><td>3.25%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>Drive ND</td><td>740ml</td><td>Buy 2 cases of CSP 740ml, Get Rs. 30/- Off</td><td>All Ols</td><td>All ASMs</td><td>30</td><td>1.67%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>IPS</td><td>UF</td><td>Buy 1 Bundle of UF, Get Rs. 100/- Off</td><td>All Ols</td><td>All ASMs</td><td>200</td><td>4.00%</td><td>KO May</td><td>Over & Above Coupon</td></tr>
+                                <tr><td>Drop Size - Cohorted</td><td>NARTD Slab</td><td>Get Rs. 180/- off: Order Value of Rs. 10000 or more(Juice PET + Sparkling PET + CSP Cans + 2 Litre Kinley Water) | Min 1 Case Limca 250ml</td><td>All Ols</td><td>All ASMs</td><td>180</td><td>1.80%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>Drop Size - Cohorted</td><td>Top NARTD</td><td>Get Rs. 400/- off: Order Value of Rs. 20000 or more(Juice PET + Sparkling PET + CSP Cans + 2 Litre Kinley Water) | Min 1 case ASSP + 1 Case 2.25ml PET</td><td>PGS</td><td>All ASMs</td><td>400</td><td>2.00%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>Drop Size - Cohorted</td><td>NARTD Slab</td><td>Get Rs. 150/- off: Order Value of Rs. 5000 or more(Juice PET + Sparkling PET + CSP Cans + 2 Litre Kinley Water) | Min 1Limca 250ml</td><td>Bronze & Iron</td><td>All ASMs</td><td>150</td><td>3.00%</td><td>KO May - Less Sundays</td><td></td></tr>
+                                <tr><td>IPS</td><td>Invigorating</td><td>Buy Minimum 1 case each ASSP (TU 250ml + 250 ml + CTU 250ml), get Rs. 35/- Off</td><td>All Ols</td><td>All ASMs</td><td>35</td><td>2.30%</td><td>KO May - Less Sundays</td><td></td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>

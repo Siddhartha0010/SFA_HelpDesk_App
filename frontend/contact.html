@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SFA 2.0 Help Desk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo" height="80" width = "80">
+                    <span>SFA 2.0 Help Desk</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promos.html">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutorials.html">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-title">
+        <div class="container">
+            <h1>Contact Support</h1>
+            <p>Can't find what you're looking for? Reach out to our support team</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-headset"></i>
+                            <h3>Technical Support</h3>
+                            <p>Available 24/7 for urgent technical issues</p>
+                            <a href="tel:+918000123456" class="contact-link">+91 8000 123 456</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Support</h3>
+                            <p>Response within 24 hours</p>
+                            <a href="mailto:sfa.support@coca-cola.com" class="contact-link">sfa.support@coca-cola.com</a>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-comments"></i>
+                            <h3>In-App Support</h3>
+                            <p>Use the Chat Support feature in the app</p>
+                            <a href="features.html#chat-support" class="contact-link">Learn how to use Chat Support</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <h3>Submit a Support Ticket</h3>
+                        <form id="support-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="col-md-6 mb-3">
+                                    <label for="employee-id" class="form-label">Employee ID</label>
+                                    <input type="text" class="form-control" id="employee-id" name="employee-id" required>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="issue-type" class="form-label">Issue Type</label>
+                                <select class="form-select" id="issue-type" name="issue-type" required>
+                                    <option value="">Select Issue Type</option>
+                                    <option value="login">Login Issues</option>
+                                    <option value="sync">Data Sync Problems</option>
+                                    <option value="order">Order Placement</option>
+                                    <option value="route">Route Planning</option>
+                                    <option value="rewards">Rewards & Incentives</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" class="form-control" id="subject" name="subject" required>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Issue Description</label>
+                                <textarea class="form-control" id="description" name="description" rows="5" required></textarea>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="screenshot" class="form-label">Attach Screenshot (optional)</label>
+                                <input class="form-control" type="file" id="screenshot" name="screenshot" accept="image/*">
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit Ticket</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="office-locations">
+        <div class="container">
+            <h2 class="section-title">Our Offices</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="office-card">
+                        <h3>Head Office</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Coca-Cola Plaza, Mumbai, Maharashtra 400001</p>
+                        <p><i class="fas fa-phone"></i> +91 22 1234 5678</p>
+                        <p><i class="fas fa-envelope"></i> mumbai@coca-cola.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="office-card">
+                        <h3>Regional Office - North</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 456 Beverage Street, Delhi, 110001</p>
+                        <p><i class="fas fa-phone"></i> +91 11 2345 6789</p>
+                        <p><i class="fas fa-envelope"></i> delhi@coca-cola.com</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="office-card">
+                        <h3>Regional Office - South</h3>
+                        <p><i class="fas fa-map-marker-alt"></i> 789 Refreshment Road, Bangalore, 560001</p>
+                        <p><i class="fas fa-phone"></i> +91 80 3456 7890</p>
+                        <p><i class="fas fa-envelope"></i> bangalore@coca-cola.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-logo">
+                        <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo" height="80" width = "80">
+                        <h3>SFA 2.0 Help Desk</h3>
+                    </div>
+                    <p>Your comprehensive guide to mastering the Sales Force Automation app</p>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">User Manual</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                        <li><a href="#">Training Materials</a></li>
+                        <li><a href="#">System Requirements</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +91 8000 123 456</p>
+                    <p><i class="fas fa-envelope"></i> sfa.support@coca-cola.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coca-Cola Company. All rights reserved.</p>
+                <p>Designed by BTech Student for Internship Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Video Tutorial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="ratio ratio-16x9">
+                        <video id="tutorialVideo" controls>
+                            <source src="/placeholder.svg" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

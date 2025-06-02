@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFA 2.0 Help Desk</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo" height="80" width="80">
+                    <span>SFA 2.0 Help Desk</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promos.html">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tutorials.html">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Admin login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1>WELCOME TO <span>SFA 2.0 HELP DESK</span></h1>
+                    <p>Your comprehensive guide to mastering the Sales Force Automation app</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="promos.html" class="btn btn-primary">Explore SFA & Coke buddy Schemes </a>
+                        <a href="tutorials.html" class="btn btn-outline-primary">Watch Tutorials</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="imagesandvideos\cokedashboard.png" alt="SFA 2.0 App" class="img-fluid hero-img shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-tutorials">
+        <div class="container">
+            <h2 class="section-title">Featured Tutorials</h2>
+            <p class="section-description">Get started with these popular video guides</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="tutorial-card" data-tutorial-id="dashboard" data-keywords="dashboard,kpi,getting started,navigation,main">
+                        <div class="tutorial-thumbnail">
+                            <img src="imagesandvideos\dash.png" alt="Dashboard Tutorial">
+                            <span class="tutorial-duration">1:09</span>
+                            <div class="play-button"
+                               data-video-link-english="imagesandvideos\videos\kpitutorials_english.mp4"
+                               data-video-link-telugu="imagesandvideos\videos\kpitutorial_telugu.mp4">
+                               <i class="fas fa-play"></i>
+                             </div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h3>Getting Started with Dashboard</h3>
+                            <p>Learn how to navigate and understand the main dashboard</p>
+                            <span class="tutorial-level">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 tutorial-item" data-category="advanced">
+                    <div class="tutorial-card" data-tutorial-id="ired" data-keywords="ired,score,performance,metrics,improve">
+                        <div class="tutorial-thumbnail">
+                            <img src="imagesandvideos\ired.png" alt="IRED Score Tutorial">
+                            <span class="tutorial-duration">0:50</span>
+                            <div class="play-button"
+                            data-video-link-english="imagesandvideos\videos\ired_eng.mp4"
+                            data-video-link-telugu="imagesandvideos\videos\ired telugu.mp4">
+                            <i class="fas fa-play"></i>
+                          </div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h3>Improving IRED Score</h3>
+                            <p>Advanced techniques to boost your IRED score</p>
+                            <span class="tutorial-level">Advanced</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 tutorial-item" data-category="intermediate">
+                    <div class="tutorial-card" data-tutorial-id="remote-order" data-keywords="remote,order,placement,manage,orders">
+                        <div class="tutorial-thumbnail">
+                            <img src="imagesandvideos\remoteorder.jpg" alt="Remote Order Tutorial">
+                            <span class="tutorial-duration">1:07</span>
+                            <div class="play-button"
+                            data-video-link-english="imagesandvideos\videos\remoteorder_eng.mp4"
+                            data-video-link-telugu="imagesandvideos\videos\remoteorder_telugu.mp4">
+                            <i class="fas fa-play"></i>
+                          </div>
+                        </div>
+                        <div class="tutorial-info">
+                            <h3>Remote Order Placement</h3>
+                            <p>Learn how to place and manage orders remotely</p>
+                            <span class="tutorial-level">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <a href="tutorials.html" class="btn btn-primary">View All Tutorials</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-preview">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <p class="section-description">Quick answers to common questions</p>
+
+            <div class="faq-item" data-faq-id="incentives" data-keywords="incentives,rewards,track,coins,rank,earnings">
+                <div class="faq-question">
+                    <h3>How do I track my incentives and rewards?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>To track your incentives and rewards in the SFA 2.0 app:</p>
+                    <ol>
+                        <li>Navigate to the "My Rewards" section from the main menu</li>
+                        <li>Here you can view your current incentives, potential earnings, and achievement metrics</li>
+                        <li>Check the "My Coins" tab to see your accumulated reward points</li>
+                        <li>View the "My Rank" tab to see your performance ranking compared to other team members</li>
+                        <li>The "Summary" tab provides an overview of your performance across different metrics</li>
+                    </ol>
+                    <p>Regular monitoring of your rewards and incentives can help you focus your efforts on activities that maximize your earnings.</p>
+                    <a href="#" class="tutorial-link"
+                    data-video-link-english="imagesandvideos\videos\myrewards_eng_faq.mp4"
+                    data-video-link-telugu="imagesandvideos\videos\myrewards_telugu.mp4">
+                   <i class="fas fa-play-circle"></i> Watch tutorial video
+                    </a>
+                </div>
+            </div>
+
+            <div class="faq-item" data-faq-id="schemes" data-keywords="schemes,sfa,outlet,visit,begin,retailers">
+                <div class="faq-question">
+                    <h3>Where can i see SFA Schemes in the app?</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="faq-answer">
+                    <p>To to check schemes SFA 2.0 schemes:</p>
+                    <ol>
+                        <li>On the home screen tap on "START DAY"</li>
+                        <li>Here you can view the list of outlets on the screen</li>
+                        <li>Select the desired outlet and click "Begin Visit"</li>
+                        <li>Here you can view the outlet data</li>
+                        <li>Click on the % symbol on the top right corner on the screen to view Schemes applicable to this outlet.</li>
+                    </ol>
+                    <p>Discussion about schemes with the outlet retailers is important</p>
+                    <a href="#" class="tutorial-link"
+                    data-video-link-english="imagesandvideos\videos\schemes eng.mp4"
+                    data-video-link-telugu="imagesandvideos\videos\schemes telugu.mp4">
+                   <i class="fas fa-play-circle"></i> Watch tutorial video
+                    </a>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="faq.html" class="btn btn-primary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-logo">
+                        <img src="imagesandvideos\logo.png" alt="Coca-Cola Logo">
+                        <h3>SFA 2.0 Help Desk</h3>
+                    </div>
+                    <p>Your comprehensive guide to mastering the Sales Force Automation app</p>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">User Manual</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                        <li><a href="#">Training Materials</a></li>
+                        <li><a href="#">System Requirements</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> +91 8000 123 456</p>
+                    <p><i class="fas fa-envelope"></i> sfa.support@coca-cola.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Coca-Cola Company. All rights reserved.</p>
+                <p>Designed by BTech Student for Internship Project</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitle">Video Tutorial</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="language-selector mb-3">
+                        <span>Select Language: </span>
+                        <button class="btn btn-sm btn-language active" data-language="english">English</button>
+                        <button class="btn btn-sm btn-language" data-language="telugu">తెలుగు (Telugu)</button>
+                    </div>
+                    <div class="ratio ratio-16x9">
+                        <video id="tutorialVideo" controls>
+                            <source src="/placeholder.svg" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <div id="chatbot-container" style="position: fixed; bottom: 20px; right: 20px; z-index: 1000;">
+        <button id="chatToggle" style="width: 60px; height: 60px; border-radius: 50%; background-color: #e31837; border: none; color: white; font-size: 24px; cursor: pointer; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+            <i class="fas fa-comments"></i>
+        </button>
+        <div id="chatFrame" style="display: none; position: fixed; bottom: 90px; right: 20px; width: 350px; height: 500px; border-radius: 10px; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); overflow: hidden;">
+            <iframe src="https://sfa-chatbot-jo8h.onrender.com" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const chatToggle = document.getElementById('chatToggle');
+            const chatFrame = document.getElementById('chatFrame');
+
+            if (chatToggle && chatFrame) {
+                chatToggle.addEventListener('click', function() {
+                    if (chatFrame.style.display === 'none') {
+                        chatFrame.style.display = 'block';
+                        chatToggle.style.transform = 'scale(0.9)';
+                    } else {
+                        chatFrame.style.display = 'none';
+                        chatToggle.style.transform = 'scale(1)';
+                    }
+                });
+            } else {
+                console.error("Chat toggle or chat frame element not found. Please check your HTML IDs.");
+            }
+        });
+    </script>
+</body>
+</html>
